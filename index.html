@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExplorePak - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: block; /* Keep it always visible */
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid white; /* Cursor effect */
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: white; }
+        }
+        .carousel-caption.typing-effect {
+            animation: typing 3s steps(20, end), blink-caret 0.75s step-end infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ExplorePak</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#gallery">Gallery</a></li> <!-- Add link to Gallery section -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+            <h1 style="text-align: left;">Unlock the Beauty of Pakistan</h1>
+        </div>
+    </section>
+
+    <section class="content-sections">
+        <div class="section">
+            <p style="background-color: orangered;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida augue quis urna consequat, ac blandit velit vestibulum., Pakistan has a beautiful landscape of different attractive scenes with greenish blue lakes and gigantic rivers flowing from beautiful valleys covered within lush green fields and surrounded by snow caped mountains and hills..</p>
+        </div>
+        <div class="section carousel">
+            <img src="images/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg" alt="Beautiful scenery" class="carousel-image active">
+            <img src="images/360_F_600901739_93i8HBQhHjqXyvNBrHWEiJOveQYdMe6m.jpg" alt="Beautiful scenery" class="carousel-image">
+            <img src="images/pexels-photo-443446.jpeg" alt="Beautiful scenery" class="carousel-image">
+        </div>
+        <div class="section">
+            <div class="social-icons">
+                <a href="#"><img src="images/d.jpeg" alt="insta"></a>
+                <a href="#"><img src="images/download.png" alt="facebook"></a>
+                <a href="#"><img src="images/download (1).jpeg" alt="utube"></a>
+                <a href="#"><img src="images/download (1).png" alt="search"></a>
+            </div>
+            <h3 style="color: rgb(105, 94, 94);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+            <h1 style="color: rgb(222, 79, 2);">TRAVEL <br>WITH US!</h1>
+            <h1 id="carousel-heading" style="background-color: black; color: white;">PLAN YOUR TRIP!</h1>
+        </div>
+    </section>
+    
+        <section id="about-us" class="about-us">
+            <div class="container">
+                <h1>About Us</h1>
+                <div class="section-row">
+                    <div class="section-content">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida augue quis urna consequat, ac blandit velit vestibulumfue ucucnifnqifjwcnwdiqwfiqinecnecnefinqi.</p>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/tree-lake-pakistan-nature (1).jpg" alt="About Us Image" style="width: 100%; height: 400px; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="section-row">
+                    <div class="section-image">
+                        <img src="images/Phandar-Valley-Beautiful-places-in-Pakistan-Depositphotos.jpg" alt="About Us Image" style="width: 100%; height: 400px; object-fit: cover;">
+                    </div>
+                    <div class="section-content">
+                        <div class="stats">
+                            <div class="stat">
+                                <h2 class="count" data-target="10000">0</h2>
+                                <p>Active Travelers</p>
+                            </div>
+                            <div class="stat">
+                                <h2 class="count" data-target="500">0</h2>
+                                <p>Travel Destinations</p>
+                            </div>
+                            <div class="stat">
+                                <h2 class="count" data-target="50000">0</h2>
+                                <p>Happy Travelers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="why-choose-us" class="why-choose-us">
+            <div class="container">
+                <div class="why-choose-us-left">
+                    <h1>Why Choose Us?</h1>
+                </div>
+                <div class="why-choose-us-right">
+                    <div class="section">
+                        <div class="icon-container">
+                            <i class="icon">📍</i>
+                        </div>
+                        <h2>Best Destinations</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar et ante sem nulla phasellus aenean quam ivamus.</p>
+                    </div>
+                    <div class="section">
+                        <div class="icon-container">
+                            <i class="icon">✈️</i>
+                        </div>
+                        <h2>Fastest Travel</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar et ante sem nulla phasellus aenean quam ivamus.</p>
+                    </div>
+                    <div class="section">
+                        <div class="icon-container">
+                            <i class="icon">$</i>
+                        </div>
+                        <h2>Affordable Prices</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar et ante sem nulla phasellus aenean quam ivamus.</p>
+                    </div>
+                    <div class="section">
+                        <div class="icon-container">
+                            <i class="icon">🛡️</i>
+                        </div>
+                        <h2>Safety Guides</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar et ante sem nulla phasellus aenean quam ivamus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Gallery Section -->
+<section>
+    <div class="gallery">
+      <h2 class="gallery-heading">Gallery</h2>
+      <div class="gallery-container">
+        <img class="gallery-item gallery-item-1" src="images/giglit.jpeg" data-index="1" />
+        <img class="gallery-item gallery-item-2" src="images/Phandar-Valley-Beautiful-places-in-Pakistan-Depositphotos.jpg" data-index="2" />
+        <img class="gallery-item gallery-item-3" src="images/swat.jpeg" data-index="3" />
+        <img class="gallery-item gallery-item-4" src="images/pexels-photo-443446.jpeg" data-index="4" />
+        <img class="gallery-item gallery-item-5" src="images/1451282924_1451128247_shangrilla.jpg" data-index="5" />
+      </div>
+      <div class="gallery-controls"></div>
+    </div>
+  </section>
+
+        <div class="packages-container">
+            <button class="prev-button" onclick="prevPackage()">&#60;</button>
+            <div class="packages">
+                <div class="package" id="kalash">
+                    <img src="images/hunza.jpeg" alt="Package Image">
+                    <div class="package-info">
+                        <div class="package-title">⚲ Kalash</div>
+                        <div class="package-details">⏱︎ 6 Days 5 Nights</div>
+                        <div class="package-price">10,000 PKR</div>
+                        <div class="package-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="package" id="hunza">
+                    <img src="images/ds.jpeg" alt="Package Image">
+                    <div class="package-info">
+                        <div class="package-title">⚲ Hunza</div>
+                        <div class="package-details">⏱︎ 6 Days 5 Nights</div>
+                        <div class="package-price">10,000 PKR</div>
+                        <div class="package-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="package" id="mushkpuri">
+                    <img src="images/tree-lake-pakistan-nature.jpg" alt="Package Image">
+                    <div class="package-info">
+                        <div class="package-title">⚲ Mushkpuri</div>
+                        <div class="package-details">⏱︎ 6 Days 5 Nights</div>
+                        <div class="package-price">10,000 PKR</div>
+                        <div class="package-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="package" id="gilgit" style="display: none;">
+                    <img src="images/giglit.jpeg" alt="Package Image">
+                    <div class="package-info">
+                        <div class="package-title">⚲ Gilgit</div>
+                        <div class="package-details">⏱︎ 6 Days 5 Nights</div>
+                        <div class="package-price">10,000 PKR</div>
+                        <div class="package-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="package" id="swat" style="display: none;">
+                    <img src="images/swat.jpeg" alt="Package Image">
+                    <div class="package-info">
+                        <div class="package-title">⚲ Swat</div>
+                        <div class="package-details">⏱︎ 6 Days 5 Nights</div>
+                        <div class="package-price">10,000 PKR</div>
+                        <div class="package-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+            </div>
+            <button class="next-button" onclick="nextPackage()">&#62;</button>
+        </div>
+        
+      
+      
+      <div class="main-container">
+        <div class="main-heading">EXPLORE PAKISTAN WITH US!</div>
+        <div class="tour-sections">
+            <div class="tour-section">
+                <h2>Family Tour</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia erat quis velit lobortis, non commodo ex ultrices.</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="tour-section">
+                <h2>Couple Tours</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia erat quis velit lobortis, non commodo ex ultrices.</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="tour-section">
+                <h2>Friends Tour</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia erat quis velit lobortis, non commodo ex ultrices.</p>
+                <button class="details-button">View Details</button>
+            </div>
+        </div>
+    </div>
+      
+    <div class="container1">
+        <h1>Start Your Adventure Today:
+         Where Every Mile Holds Magic & Memories</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel diam fermentum, tempus erat nec, hendrerit quam.</p>
+        <button class="button" >CONTACT NOW</button>
+
+        </div>
+        <br><br><br><br>
+       
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="faq-heading">FAQ's</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              <span class="icon">+</span>
+            </div>
+            <div class="answer">
+            
+              Check Tour Packages according to popular destinations of Pakistan and confirm your booking.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">
+              <span>Lorem ipsum dolor sit amet consectetur.</span>
+              <span class="icon">+</span>
+            </div>
+            <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quas.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">
+              <span>Lorem, ipsum dolor.</span>
+              <span class="icon">+</span>
+            </div>
+            <div class="answer">
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi delectus cumque molestias consequuntur dolore laboriosam.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">
+              <span
+                >Lorem ipsum dolor sit amet consectetur.</span
+              >
+              <span class="icon">+</span>
+            </div>
+            <div class="answer">
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.?</span>
+              <span class="icon">+</span>
+            </div>
+            <div class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  
+            </div>
+          </div>
+        </div> <br><br><br><br>
+     
+   
+      <!-- Footer Code -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4 class="footer-heading">ExplorePak</h4>
+            <p class="footer-subheading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo, laborum impedit facilis repellendus odio consequatur.
+              Ut praesentium excepturi laborum ducimus iure vero omnis nobis?
+              Vero nesciunt cum cupiditate deleniti minus?
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Packages</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-heading">Tour Packages</h4>
+            <ul class="footer-links">
+              <li><a href="#">Best friends Tour</a></li>
+              <li><a href="#">customized Tour</a></li>
+              <li><a href="#">Cultural Tour</a></li>
+              <li><a href="#">employees Tour</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-heading">Contact Info</h4>
+            <ul class="contact-info">
+              <li><i class="fa-solid fa-phone">	&#xf095;</i> +8738329809</li>
+              <li><i class="fas fa-envelope"></i> info@example.com</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 3 Street, rawalpindi pakistan
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer-line" />
+        <p class="footer-copyright">Copyright &#169; 2024 ExplorePak</p>
+      </footer>
+    </section>
+  </body>
+</html>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
